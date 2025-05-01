@@ -46,3 +46,15 @@ y hacer push** en el sub-módulo y **después** en el repositorio principal.
 
 Si se hace al revés, se perderán las referencias de los sub-módulos en el
 repositorio principal y tendremos que resolver conflictos.
+
+
+# PROD
+
+1. Clone repo
+2. Create .env based in .env.template
+3. Docker commands:
+```
+docker compose -f docker-compose.prod.yml build
+
+docker compose -f docker-compose.prod.yml up
+```
