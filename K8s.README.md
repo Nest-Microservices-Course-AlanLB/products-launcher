@@ -2,6 +2,7 @@
 
 - Crear configuración `helm create <nombre>`
 - Aplicar configuración inicial: `helm install <nombre> .`
+- Aplicar la configuracion inicial situandote en el root del proyecto: `helm install tienda-gke ./k8s/shop`
 - Aplicar actualizaciones: `helm upgrade <nombre> .`
 
 # K8s commands
